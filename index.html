@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Olá pessoal aqui apresento um pouco dos meus projetos pessoais e voce tambem vai poder conhecer mais sobre mim">
+    <meta name="author" content="João vitor gentil da silva">
+    <meta name="Keywords" content="Portfolio,portfolio,vercel,joao vitor,threejs, three-js,programação,css,html,javascript,python,js,php,acessar,algoritmo,algoritmos,ambiente digital,ambientes virtuais,animações,animações,digitais,aplicativo,avanços tecnológicos">
+    <meta name="robots" content="index,follow">
+    <title>three js project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="./img/download.png" alt="icone"></a>
+        <nav>
+            <a href="#inicio"><i class="bi bi-house-door"></i> Inicio</a>
+            <a href="#services"><i class="bi bi-hammer"></i> Serviços</a>
+            <a href="#">Sobre</a>
+        </nav>
+        <div class="login">
+            <a href="#">Entra</a>
+            <a href="#">Cadastre-se</a>
+        </div>
+    </header>
+    <section id="inicio">
+        <div class="content">
+            <div class="title">
+                <h1>Aluguéis de temporada no <span>mundo todo.</span></h1>
+                <h3>Casas, apartamentos, chalés e mais</h3>
+            </div>
+            <div class="icones">
+                <a href="#"><img src="./img/apple.png" alt="apple"></a>
+                <a href="#"><img src="./img/play.png" alt="playStore"></a> 
+            </div>
+            <div class="datas">
+                <div class="lugar">
+                    <i class="bi bi-airplane"></i>
+                    <input type="text" placeholder="Para onde voce vai?">
+                </div>
+                <div class="ida">
+                    <input type="date">
+                </div>
+                <div class="volta">
+                    <input type="date">
+                </div>
+                <button>Pesquisar</button>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h1>Sinta-se em casa em qualquer destino</h1>
+    </section>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "../build/three.module.js"
+            }
+        }
+    </script>
+    <script type="module" src="./js/three-animação.js"></script>
+</body>
+</html>

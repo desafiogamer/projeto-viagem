@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    font-family: "Cabin", sans-serif;
+}
+
+:root {
+    --text-color: #ededed;
+    --main-second-color: #ff4800;
+    --bg: #000000;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100dvh;
+    background-position: center;
+    z-index: -1;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    padding: 70px 40px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    padding: 5px 40px;
+    z-index: 10;
+}
+
+header img{
+    width: 70px;
+    height: 70px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: .3s;
+}
+
+nav a:first-child{
+    padding: 9px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    color: var(--main-second-color)
+}
+
+nav a i{
+    margin-right: 5px;
+}
+
+.login a{
+    font-size: 17px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.login a:hover{
+    color: var(--main-second-color);
+}
+
+.login a:last-child{
+    background: #161616;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.login a:hover:last-child {
+    background: #2e2e2e;
+    color: var(--main-second-color);
+}
+
+#inicio{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right,#080808ec, transparent);
+    z-index: 10;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.title h1{
+    font-size: 45px;
+    color: #ffffffee;
+}
+
+.title h1 span{
+    color: #ff6629;
+}
+
+.title h3{
+    font-size: 25px;
+    color: #ffffffb9;
+}
+
+.icones{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.icones a img{
+    width: 200px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.datas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+    margin-top: 70px;
+    
+}
+
+.lugar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.lugar i{
+    position: absolute;
+    margin-left: 10px;
+}
+
+.lugar input{
+    height: 50px;
+    width: 98%;
+    padding: 5px 35px;
+    border-radius: 8px;
+    border: none;
+}
+
+.lugar input::placeholder{
+    font-size: 17px;
+}
+
+.ida input, .volta input{
+    height: 50px;
+    width: 98%;
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+
+.ida, .volta, .lugar{
+    width: 100%;
+}
+
+.datas button{
+    width: 30%;
+    height: 50px;
+    font-size: 17px;
+    background: var(--main-second-color);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.datas button:hover{
+    background: #ff7139;
+}
+
+#services{
+    background: #080808;
+}
+
+#services h1{
+    text-align: center;
+    color: white;
+}
