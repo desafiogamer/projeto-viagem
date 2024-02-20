@@ -236,6 +236,7 @@ nav a i{
 }
 
 #services h1{
+    font-size: 34px;
     text-align: center;
     color: white;
 }
@@ -283,4 +284,111 @@ nav a i{
 
 .card button:hover{
     background: #fd6e36;
+}
+
+.descricao{
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+    border-top: 1px solid #ffffff1e;
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff1e;
+}
+
+.title-des{
+    width: 500px;
+}
+
+.title-des h2{
+    font-size: 40px;
+    color: white;
+}
+
+.descricao-one{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.descricao-one i{
+    font-size: 25px;
+    color: #ff8d60;
+}
+
+.descricao-one h3{
+    color: #ff8d60;
+    margin: 10px 0;
+}
+
+.descricao-one p{
+    color: white;
+}
+
+.apartamentos{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.apartamentos h2{
+    color: white;
+}
+
+.apartamentos h3{
+    margin-top: 10px;
+    color: #ffffff6e;
+}
+
+.apartamentos-content{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.apartamento-box{
+    margin: 0 auto;
+    background: #00000070;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.apartamento-box img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.apartamento-box h4{
+    color: #ffffffee;
+    margin: 5px 0;
+}
+
+.apartamento-box .rating{
+    color: #ffffffaf;
+    margin: 15px 0;
+}
+
+.apartamento-box .rating span{
+    background: #0051ff;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.apartamento-box .local{
+    color: #ffffffaf;
+    margin: 5px 0;
+}
+
+.apartamento-box .local i{
+    margin-right: 5px;
+}
+
+.apartamento-box .price{
+    text-align: end;
+    color: #ffffff6e;
+    margin-top: 10px;
+}
+
+.apartamento-box .price strong{
+    color: #ffffffea;
 }
