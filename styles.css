@@ -392,3 +392,45 @@ nav a i{
 .apartamento-box .price strong{
     color: #ffffffea;
 }
+
+.sobre h2{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sobre details{
+    border: 1px solid #ffffff2d;
+    padding: 30px 20px;
+    background: #00000048;
+}
+
+.sobre details summary{
+    color: white;
+    cursor: pointer;
+}
+
+.sobre details p {
+    color: #ffffff83;
+    margin-top: 10px;
+}
+
+footer{
+    background: black;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    color: #ffffffbb;
+    text-align: center;
+}
+
+footer i{
+    background: var(--main-second-color);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
