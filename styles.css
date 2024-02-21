@@ -47,6 +47,12 @@ header{
     backdrop-filter: blur(4px);
     padding: 5px 40px;
     z-index: 10;
+    transition: .3s;
+}
+
+header.ativo{
+    background: black;
+    transition: .3s;
 }
 
 header img{
@@ -75,6 +81,16 @@ nav a:first-child{
 
 nav a:hover{
     color: var(--main-second-color)
+}
+
+nav a.ativo{
+    transition: .3s;
+    color: var(--main-second-color);
+    transform: scale(1.1);
+}
+
+nav a.ativo:first-child{
+    border: 1px solid var(--main-second-color);
 }
 
 nav a i{
@@ -130,10 +146,6 @@ nav a i{
     color: #ffffffee;
 }
 
-.title h1 span{
-    color: #ff6629;
-}
-
 .title h3{
     font-size: 25px;
     color: #ffffffb9;
@@ -147,8 +159,8 @@ nav a i{
 }
 
 .icones a{
-    width: 160px;
-    height: 50px;
+    width: 180px;
+    height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,7 +170,12 @@ nav a i{
 .icones a img{
     width: 200px;
     margin-left: -10px;
+    transition: .3s;
     cursor: pointer;
+}
+
+.icones a img:hover {
+    transform: scale(1.1);
 }
 
 .datas{
@@ -350,6 +367,7 @@ nav a i{
     background: #00000070;
     padding: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .apartamento-box img{
@@ -416,7 +434,7 @@ nav a i{
 }
 
 footer{
-    background: black;
+    background: #010101;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
@@ -433,4 +451,5 @@ footer i{
     color: white;
     border-radius: 10px;
     padding: 5px;
+    margin-left: 10px;
 }
