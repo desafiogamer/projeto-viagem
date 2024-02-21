@@ -29,7 +29,7 @@ canvas {
 section{
     min-height: 100vh;
     width: 100%;
-    padding: 110px 40px;
+    padding: 90px 40px 0 40px;
 }
 
 body{
@@ -156,7 +156,7 @@ nav a i{
 
 #inicio{
     width: 100%;
-    min-height: 100vh;
+    min-height: 100dvh;
     background: linear-gradient(to right,#080808ec, transparent);
     z-index: 10;
 }
