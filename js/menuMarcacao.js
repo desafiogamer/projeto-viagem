@@ -22,3 +22,10 @@ window.onscroll = () => {
         }
     });
 }
+
+
+const btnAnimar = document.getElementById('btn-menu');
+btnAnimar.addEventListener('click', animarMenu)
+function animarMenu(){
+    btnAnimar.classList.toggle('ativar')
+}
