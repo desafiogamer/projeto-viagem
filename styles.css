@@ -21,7 +21,7 @@ canvas {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 100dvh;
+    height: 100%;
     background-position: center;
     z-index: -1;
 }
