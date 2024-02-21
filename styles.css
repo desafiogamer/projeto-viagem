@@ -633,7 +633,7 @@ footer i{
 @media(max-width: 768px) {
 
     section{
-        padding: 40px 20px 20px 20px;
+        padding: 35px 20px 20px 20px;
     }
 
     .datas{
@@ -671,12 +671,16 @@ footer i{
         width: 90%;
     }
 
+    .lugar input{
+        height: 35px;
+    }
+
     .ida input{
         height: 35px;
     }
 
     .datas{
-        margin-top: 50px;
+        margin-top: 20px;
     }
 }
 
